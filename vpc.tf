@@ -6,5 +6,6 @@ resource "aws_vpc" "terraform-vpc" {
     Terraform = "True"
   }
   enable_dns_hostnames = true
+  enable_dns_support   = true
 
 }
